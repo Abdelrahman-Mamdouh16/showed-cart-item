@@ -1,14 +1,10 @@
-/** @type {import('jest').Config} */
-
-const config = {
-  verbose: true,
+module.exports = {
+  preset: 'ts-jest',
+  testEnvironment: 'jsdom',
   transform: {
-    "^.+\\.(js|jsx)$": "babel-jest"
+    '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
   },
-  testEnvironment: "jest-environment-jsdom",
   moduleNameMapper: {
-    "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
   },
-  // setupFilesAfterEnv: ["./node_modules/@testing-library/jest-dom/extend-expect"]
 };
-module.exports = config;

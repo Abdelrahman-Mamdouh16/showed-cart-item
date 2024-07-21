@@ -11,7 +11,10 @@ const nextConfig = {
             },
         ],
     },
-    swcMinify: true, // تأكد من تفعيل SWC
+    swcMinify: true, 
+    webpack(config) {
+        return config;
+    },
 };
 
 export default nextConfig;
