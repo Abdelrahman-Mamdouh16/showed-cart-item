@@ -4,13 +4,14 @@ const nextConfig = {
         dangerouslyAllowSVG: true,
         remotePatterns: [
             {
-            protocol: 'https',
-            hostname: 'tailwindui.com',
-            port: '',
-            pathname: '**',
-        }
-    ]
-    }
+                protocol: 'https',
+                hostname: 'tailwindui.com',
+                port: '',
+                pathname: '**',
+            },
+        ],
+    },
+    swcMinify: true, // تأكد من تفعيل SWC
 };
 
 export default nextConfig;
