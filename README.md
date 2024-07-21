@@ -3,7 +3,6 @@ to can Make text for project you must add file .babelrc and inside it app
 {
   "presets": ["next/babel", "@babel/preset-env", "@babel/preset-react"],
   "plugins": [
-    // أضف أي إضافات تحتاجها هنا
   ]
 }
 ```
