@@ -1,3 +1,22 @@
+to can Make test for project you must add file .babelrc and inside it app
+```
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ]
+}
+```
+and jest.config.js must be like this 
+```
+module.exports = {
+  transform: {
+    '^.+\\.(js|jsx)$': 'babel-jest',
+  },
+  testEnvironment: 'jsdom',
+};
+
+```
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
