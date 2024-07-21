@@ -1,4 +1,4 @@
-to can Make text for project you must add file .babelrc and inside it app
+to can Make test for project you must add file .babelrc and inside it app
 ```
 {
   "presets": ["next/babel", "@babel/preset-env", "@babel/preset-react"],
