@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Apple",
+        "description": "Fresh and juicy apple.",
+        "price": 9.99
+    },
+    {
+        "id": 2,
+        "name": "Banana",
+        "description": "Ripe and sweet banana.",
+        "price": 4.99
+    },
+    {
+        "id": 3,
+        "name": "Orange",
+        "description": "Citrusy and tangy orange.",
+        "price": 5.49
+    },
+    {
+        "id": 4,
+        "name": "Strawberry",
+        "description": "Delicious and fresh strawberries.",
+        "price": 12.99
+    },
+    {
+        "id": 5,
+        "name": "Grapes",
+        "description": "Sweet and seedless grapes.",
+        "price": 14.99
+    },
+    {
+        "id": 6,
+        "name": "Watermelon",
+        "description": "Juicy and refreshing watermelon.",
+        "price": 19.99
+    },
+    {
+        "id": 7,
+        "name": "Blueberry",
+        "description": "Tasty and nutritious blueberries.",
+        "price": 8.49
+    },
+    {
+        "id": 8,
+        "name": "Pineapple",
+        "description": "Tropical and tangy pineapple.",
+        "price": 15.49
+    }
+]
